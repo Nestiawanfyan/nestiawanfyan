@@ -150,6 +150,9 @@
         transform: translate(-40vw, 41vh);
         height: 25em;
     }
+    body {
+        vertical-align: hidden !important;
+    }
   }
 
   @media (max-width:650px) {
@@ -176,5 +179,8 @@
         width: 75em;
         height: 25em;
         transform: translate(-40vw, 41vh);
+    }
+    body {
+        vertical-align: hidden !important;
     }
   }
