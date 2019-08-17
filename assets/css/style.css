@@ -151,7 +151,9 @@
         height: 25em;
     }
     body {
-        vertical-align: hidden !important;
+        overflow: hidden !important;
+        overflow-x: hidden !important;
+        overflow-y: hidden !important;
     }
   }
 
@@ -181,6 +183,8 @@
         transform: translate(-40vw, 41vh);
     }
     body {
-        vertical-align: hidden !important;
+        overflow: hidden !important;
+        overflow-x: hidden !important;
+        overflow-y: hidden !important;
     }
   }
