@@ -25,15 +25,16 @@ $('#images-move-2').mousemove(function(e){
 // responsive
 function responsive(x) {
     var col_md_7 = document.getElementById("remove");
+    var swup = document.getElementById("swup");
     var responsive_bullet = document.getElementById("responsive-bullet");
     
     if (x.matches) {
-        // col_md_7.classList.remove('col-md-7');
+        swup.classList.remove('col-md-7');
         col_md_7.classList.add('width-full');
         col_md_7.classList.add('design-responsive-home');
         responsive_bullet.style.display = "block";
     } else {        
-        // col_md_7.classList.add('col-md-7');
+        swup.classList.add('col-md-7');
         col_md_7.classList.remove('width-full');
         col_md_7.classList.remove('design-responsive-home');
         responsive_bullet.style.display = "none";

@@ -140,6 +140,12 @@
     opacity: 0;
   }
 
+@media (min-width: 900){
+    #responsive-bullet {
+        display: none !important;
+    }
+}
+
 @media (max-width: 1000px) {
     .none {
         display: none;
