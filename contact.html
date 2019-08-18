@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-<!--     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, height=device-height">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -24,6 +24,9 @@
 
     <section id="singlepage">
         <div class="container">
+            <div class="btn-back">
+               <a href="index.html"><span class="material-icons vertical-midle-icon">keyboard_arrow_left</span></a>
+            </div>
             <div class="row">
                 <div class="col-md-5 none">
                     <div class="images-nestiawan">
@@ -36,13 +39,19 @@
                 </div>
                 <main id="swup" class="col-md-7 transition-fade" style="margin: auto;">
                     <div id="remove" class="text-center-banner">
-                        <h2>Hello! I'M Ferdi </h2>
-                        <p><b> I'M </b> <span id="typed"></span></p>
-                        <div class="links">
-                            <a href="about.html"><span class="material-icons md-18 vertical-midle-icon">face</span>About Me</a>
-                            <a href="#"><span class="material-icons md-18 vertical-midle-icon">book</span>Blog</a>
-                            <a href="contact.html"><span class="material-icons md-18 vertical-midle-icon">perm_contact_calendar</span>Contact</a>
+                        <h2>My Contact </h2>
+                        <p>Hubungi saya jika ada keperluan dan gunakan dengan bijak.</p>
+                        <br>
+                        <div class="contact">
+                            <h3><span class="material-icons vertical-midle-icon">phone</span>Phone</h3>
+                            <span> : </span>
+                            <p>0812 - 6705 - 9803</p>
                         </div>
+                        <div class="contact">
+                                <h3><span class="material-icons vertical-midle-icon">email</span>Email</h3>
+                                <span> : </span>
+                                <p>p.nestiawan@gmail.com</p>
+                            </div>
                         <div id="responsive-bullet" class="partikel possition-relative">
                             <div class="bullet-2"></div>
                         </div>
@@ -51,15 +60,13 @@
             </div>
         </div>
     </section>
-
-    <script src="assets/js/swup.min.js"></script>
     <script>
-        const swup = new Swup();
         // responsive
         function responsive(x) {
             var col_md_7 = document.getElementById("remove");
             var swup = document.getElementById("swup");
             var responsive_bullet = document.getElementById("responsive-bullet");
+            var AboutIMG = document.getElementById("meIMG");
             
             if (x.matches) {
                 swup.classList.remove('col-md-7');
@@ -80,6 +87,7 @@
     </script>
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>  
     <!-- <script src="node_modules/typed.js/lib/typed.min.js"></script> -->
     <script src="assets/js/js.js"></script>
     <!-- Bootstrap 4 Js  -->

@@ -129,6 +129,13 @@
     background-color:rgb(23, 194, 128);
     color: #fff;
     text-align: center;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.overflow-x-hide {
+    overflow-x: hidden;
 }
 
 .loader > h2 {
@@ -179,6 +186,128 @@
 
 }
 
+.contact {
+    width: 100%;
+    height: auto;
+    margin-top: -15px;
+}
+
+.contact > h3 {
+    width: 150px;
+}
+
+.contact > h3, .contact > span {
+    font-size: 20px;
+    color: rgb(23, 194, 128);
+    font-family:'Fredoka One', sans-serif;  
+    display: inline-block;  
+}
+
+.contact > p {
+    display: inline-block;
+    margin-left: 10px;
+    font-family: 'Karla', sans-serif;
+
+}
+
+/* About */
+.title-about {
+    font-family:'Fredoka One', sans-serif;  
+    color: rgb(23, 194, 128);
+    font-size:3.3em;
+    margin-top: 40px;
+}
+
+.border-bottoms {
+    border-bottom:2px solid rgb(23, 194, 128) !important;
+    width: 150px;
+    margin-bottom: 40px;
+    height: 5px;
+}
+
+.me-img-about {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    display: inline-block; 
+}
+
+.detailMe {
+    margin-top: 5px;
+}
+
+.detailMe > h5 {
+    font-family:'Fredoka One', sans-serif;  
+    color: rgb(23, 194, 128);
+    font-size: 1.6em;
+}
+
+.detailMe > p {
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+}
+
+.personal-info {
+    margin-top: 30px;
+}
+
+.personal-info > p {
+    font-family: 'Karla', sans-serif;
+}
+
+.table-part {
+    margin-top: -5px; 
+}
+
+.table-part > h5 {
+    width: 100px;
+}
+
+.table-part > h5, .table-part > span {
+    display: inline-block;
+    color: rgb(23, 194, 128);
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;  
+    font-weight: 700 
+}
+
+.table-part > p {
+    display: inline-block;
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+/* card about */
+
+.card {
+    border: 1px solid rgb(23, 194, 128) !important;    
+    margin: 10px 0;
+}
+
+.card-header {
+    background-color: rgb(23, 194, 128) !important;
+    border: 1px solid rgb(23, 194, 128) !important;
+    color: #fff !important;
+    text-align: center;
+}
+
+.card-header > h3 , .card-header > h3 > span {
+    font-size: 20px !important;
+}
+
+.card-body > p {
+    font-family: 'Karla', sans-serif;
+    color: rgb(42, 42, 42);
+    font-size: 16px; 
+}
+
+.tahun {
+    margin-top:-10px;
+}
+
+/* Media Query | Responsive */
 
 @media (min-width: 900){
     #responsive-bullet {
@@ -205,7 +334,7 @@
         transform: translate(-40vw, 41vh);
         height: 25em;
     }
-    body {
+    .overflowHidden {
         overflow: hidden !important;
         overflow-x: hidden !important;
         overflow-y: hidden !important;
@@ -237,7 +366,7 @@
         height: 25em;
         transform: translate(-40vw, 41vh);
     }
-    body {
+    .overflowHidden {
         overflow: hidden !important;
         overflow-x: hidden !important;
         overflow-y: hidden !important;
