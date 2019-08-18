@@ -38,6 +38,9 @@
                     </div>
                 </div>
                 <main id="swup" class="col-md-7 transition-fade" style="margin: auto;">
+                    <div id="meIMG" class="meIMG">
+                        <img src="assets/images/me.jpg" alt="me">
+                    </div>
                     <div id="remove" class="text-center-banner">
                         <h2>About Me </h2>
                         <p>
@@ -57,17 +60,22 @@
             var col_md_7 = document.getElementById("remove");
             var swup = document.getElementById("swup");
             var responsive_bullet = document.getElementById("responsive-bullet");
+            var AboutIMG = document.getElementById("meIMG");
             
             if (x.matches) {
                 swup.classList.remove('col-md-7');
                 col_md_7.classList.add('width-full');
                 col_md_7.classList.add('design-responsive-about');
                 responsive_bullet.style.display = "block";
+                responsive_bullet.style.marginTop = "-110px";
+                AboutIMG.style.display = "block";
             } else {        
                 swup.classList.add('col-md-7');
                 col_md_7.classList.remove('width-full');
                 col_md_7.classList.remove('design-responsive-about');
                 responsive_bullet.style.display = "none";
+                responsive_bullet.style.marginTop = "none";
+                AboutIMG.style.display = "none";
             }
         }
 
