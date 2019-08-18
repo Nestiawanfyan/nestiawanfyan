@@ -4,6 +4,13 @@ window.addEventListener('load', function () {
     load.style.display = "none";
 });
 
+var loader_text = new Typed('#loader_text', {
+    strings: [" Sebentar Ya..."],
+    typeSpeed: 50,
+    delaySpeed: 10,
+    loop: true,
+});
+
 $('#images-move-1').mousemove(function (e) {
     var moveX = (e.pageX * -1 / 15);
     var moveY = (e.pageY * -1 / 15);
@@ -28,10 +35,3 @@ var typed = new Typed('#typed', {
     delaySpeed : 90,
     loop : true,
 });
-
-var loader_text = new Typed('#loader_text', {
-    strings: [" Sebentar Ya..."],
-    typeSpeed: 50,
-    delaySpeed : 10,
-    loop : true,
-})
