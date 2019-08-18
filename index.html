@@ -39,7 +39,7 @@
                         <h2>Hello! I'M Ferdi </h2>
                         <p><b> I'M </b> <span id="typed"></span></p>
                         <div class="links">
-                            <a href="https://nestiawanfyan.github.io/nestiawanfyan/about.html"><span class="material-icons md-18 vertical-midle-icon">face</span>About Me</a>
+                            <a href="about.html"><span class="material-icons md-18 vertical-midle-icon">face</span>About Me</a>
                             <a href="#"><span class="material-icons md-18 vertical-midle-icon">book</span>Portfolio</a>
                             <a href="#"><span class="material-icons md-18 vertical-midle-icon">perm_contact_calendar</span>Contact</a>
                         </div>
@@ -55,29 +55,6 @@
     <script src="assets/js/swup.min.js"></script>
     <script>
         const swup = new Swup();
-        
-        // responsive
-        function responsive(x) {
-            var col_md_7 = document.getElementById("remove");
-            var swup = document.getElementById("swup");
-            var responsive_bullet = document.getElementById("responsive-bullet");
-            
-            if (x.matches) {
-                swup.classList.remove('col-md-7');
-                col_md_7.classList.add('width-full');
-                col_md_7.classList.add('design-responsive-home');
-                responsive_bullet.style.display = "block";
-            } else {        
-                swup.classList.add('col-md-7');
-                col_md_7.classList.remove('width-full');
-                col_md_7.classList.remove('design-responsive-home');
-                responsive_bullet.style.display = "none";
-            }
-        }
-
-        var x = window.matchMedia("(max-width: 1000px)")
-        responsive(x)
-        x.addListener(responsive)
     </script>
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
