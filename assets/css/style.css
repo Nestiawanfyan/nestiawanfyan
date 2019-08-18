@@ -123,6 +123,11 @@
     height: 100vh;
 }
 
+.design-responsive-contact {
+    margin: 13vh 0;
+    height: 100vh;
+}
+
 .loader{
     width: 100%;
     height: 100vh;
@@ -193,14 +198,15 @@
 }
 
 .contact > h3 {
-    width: 150px;
+    width: 180px;
 }
 
 .contact > h3, .contact > span {
-    font-size: 20px;
+    font-size: 17px;
     color: rgb(23, 194, 128);
-    font-family:'Fredoka One', sans-serif;  
-    display: inline-block;  
+    font-family: 'Karla', sans-serif;
+    display: inline-block; 
+    font-weight: 700; 
 }
 
 .contact > p {
@@ -334,7 +340,7 @@
         transform: translate(-40vw, 41vh);
         height: 25em;
     }
-    .overflowHidden {
+         .overflowHidden {
         overflow: hidden !important;
         overflow-x: hidden !important;
         overflow-y: hidden !important;
@@ -346,6 +352,7 @@
         flex: none !important;
         width: 100% !important;
         padding:0 20px;
+        margin-top: 0 0;
     }
 
     .text-center-banner > h2 {
@@ -371,5 +378,18 @@
         overflow-x: hidden !important;
         overflow-y: hidden !important;
         position: fixed;
+    }
+
+    .contact > h3 {
+        font-size: 0.8em;
+        width: 150px;
+    }
+
+    .contact > span {
+        font-size: 0.8em;
+    }
+
+    .contact > p {
+        font-size: 14px;
     }
   }
