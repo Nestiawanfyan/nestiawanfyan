@@ -105,6 +105,10 @@
     z-index: -999;
 }
 
+.text-center-banner > p{
+    font-family: 'Karla', sans-serif;
+}
+
 .width-full {
     width: 100% !important;
 }
