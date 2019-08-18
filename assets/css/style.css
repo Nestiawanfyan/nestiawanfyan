@@ -129,7 +129,7 @@
 }
 
 .loader{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color:rgb(23, 194, 128);
     color: #fff;
